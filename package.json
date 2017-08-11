@@ -4,18 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "micro": "^8.0.1"
+    "micro": "^8.0.1",
+    "node-fetch": "^1.7.2"
   },
   "devDependencies": {
-    "micro-dev": "^1.2.0"
-  },
-  "scripts": {
-    "start": "micro",
-    "dev": "micro-dev"
+    "micro-dev": "^1.2.0",
+    "standard": "^10.0.3"
   }
 }
